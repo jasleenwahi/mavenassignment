@@ -3,6 +3,7 @@ package com.knoldus;
 
 public class StringOperations
 {
+    /*this function reverses the string*/
     public String stringReverse(String stringToReverse)
     {
     	char charToReverse[] = stringToReverse.toCharArray();
@@ -14,7 +15,7 @@ public class StringOperations
     	
     	return reversedString;
     }
-    
+    /*this function calculates the length of the string*/
     public int getStringLength(String stringToCalculateLength)
     {
     	int numberOfLettersInString=0;
